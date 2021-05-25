@@ -19,9 +19,8 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 public class NewController {
     @PostMapping("/form")
-    public String form(String personName,String personAddress){
-//        return String.format("simple response. name: %s, address: %s",
-//                personName, personAddress);
-    return "form";
+    public String form(String personName, String personAddress) {
+
+        return "form";
     }
 }
